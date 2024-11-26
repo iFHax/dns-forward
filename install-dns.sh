@@ -4,6 +4,9 @@
 VPS_IP="YOUR_VPS_IP"  # Replace with your actual VPS IP
 DOMAIN="YOUR_SUBDOMAIN"  # Replace with your actual domain or subdomain
 
+# cloudflare SUB.EXAMPLE.COM
+# cloudflare *.SUB.EXAMPLE.COM
+
 echo "Updating system and installing required packages..."
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y bind9 bind9utils bind9-doc net-tools iptables-persistent dnsutils
