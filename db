@@ -1,0 +1,5 @@
+# nano etc/bind/zones/db.YOUR-SUB-DOMAIN
+
+# Block Sites Example
+example1.com.   IN  A   127.0.0.1    ; Block this site 1
+example2.com. IN  A   127.0.0.1    ; Block this site 2
